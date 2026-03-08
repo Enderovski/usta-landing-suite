@@ -1,61 +1,62 @@
-// === USTA TEMPLATE SITE CONFIG ===
+// === CONTRACTOR TEMPLATE SITE CONFIG ===
 // Change these values to rebrand the entire site in seconds.
 
 export const siteConfig = {
   // Business Info
-  businessName: "Usta Pro",
-  serviceName: "Tadilat & Renovasyon",
-  location: "İstanbul",
-  phone: "+90 555 123 4567",
-  whatsappNumber: "905551234567", // no + or spaces
-  email: "info@ustapro.com",
-  address: "Kadıköy, İstanbul, Türkiye",
+  businessName: "Pro Builders",
+  serviceName: "Remodeling & Construction",
+  location: "Houston, TX",
+  phone: "+1 (713) 555-0199",
+  whatsappNumber: "17135550199", // no + or spaces
+  email: "info@probuilderstx.com",
+  address: "4521 Westheimer Rd, Houston, TX 77027",
   
   // Hero
-  heroHeadline: "Profesyonel Tadilat & Renovasyon Hizmetleri",
-  heroSubheadline: "Yılların deneyimi, garantili işçilik ve uygun fiyat. Zamanında teslim, her zaman.",
+  heroHeadline: "Professional Remodeling & Construction Services",
+  heroSubheadline: "Years of experience, guaranteed workmanship, and fair pricing. We deliver on time, every time.",
+  heroHighlightWords: ["Professional", "Services"],
   
   // Trust Bar items
   trustItems: [
-    "Ücretsiz Keşif",
-    "7/24 Hizmet",
-    "Sertifikalı Usta",
-    "Sabit Fiyat",
-    "Garantili İş",
-    "Temiz Çalışma",
+    "Free Estimates",
+    "Licensed & Insured",
+    "Certified Contractors",
+    "Upfront Pricing",
+    "Satisfaction Guaranteed",
+    "Clean Job Sites",
   ],
 
   // Services
   services: [
     {
       icon: "Wrench" as const,
-      title: "Komple Tadilat",
-      description: "Evinizi veya iş yerinizi baştan sona yeniliyoruz. Profesyonel ekibimizle hayalinizdeki mekânı oluşturuyoruz.",
+      title: "Full Remodeling",
+      description: "We renovate your home or business from top to bottom. Our professional team brings your dream space to life.",
     },
     {
       icon: "Paintbrush" as const,
-      title: "Boya & Badana",
-      description: "İç ve dış cephe boya işlerinizde kaliteli malzeme ve uzman işçilik ile yanınızdayız.",
+      title: "Painting",
+      description: "Interior and exterior painting with premium materials and expert craftsmanship you can trust.",
     },
     {
       icon: "Droplets" as const,
-      title: "Tesisat",
-      description: "Su tesisatı, kalorifer ve doğalgaz tesisatı kurulum, bakım ve onarım hizmetleri sunuyoruz.",
+      title: "Plumbing",
+      description: "Water lines, heating systems, and gas line installation, maintenance, and repair services.",
     },
     {
       icon: "Zap" as const,
-      title: "Elektrik Tesisatı",
-      description: "Elektrik pano, kablolama ve aydınlatma işlerinizde güvenli ve garantili çözümler üretiyoruz.",
+      title: "Electrical",
+      description: "Panel upgrades, wiring, and lighting — safe and guaranteed electrical solutions for your property.",
     },
     {
       icon: "LayoutGrid" as const,
-      title: "Fayans & Seramik",
-      description: "Banyo, mutfak ve zemin kaplama işlerinizde kusursuz döşeme garantisi veriyoruz.",
+      title: "Tile & Flooring",
+      description: "Bathroom, kitchen, and floor tiling with flawless installation guaranteed every time.",
     },
     {
       icon: "Home" as const,
-      title: "Mutfak & Banyo",
-      description: "Modern mutfak ve banyo tasarımlarıyla yaşam alanlarınızı dönüştürüyoruz.",
+      title: "Kitchen & Bath",
+      description: "Modern kitchen and bathroom designs that transform your living spaces completely.",
     },
   ],
 
@@ -63,45 +64,45 @@ export const siteConfig = {
   whyChooseUs: [
     {
       icon: "ShieldCheck" as const,
-      title: "Gizli Maliyet Yok",
-      description: "Keşif sonrası verilen fiyat nettir. Ek ücret talep etmiyoruz.",
+      title: "No Hidden Costs",
+      description: "The price we quote after inspection is final. No surprise charges, ever.",
     },
     {
       icon: "Sparkles" as const,
-      title: "Temiz Çalışma Ortamı",
-      description: "İş bitiminde mekânınızı tertemiz teslim ediyoruz.",
+      title: "Clean Job Sites",
+      description: "We leave your space spotless when the job is done. Every single time.",
     },
     {
       icon: "Clock" as const,
-      title: "Hızlı Dönüş",
-      description: "Aramanıza aynı gün içinde dönüş yapıyoruz. Zaman kaybı yok.",
+      title: "Fast Response",
+      description: "We return your call the same day. No wasted time, no runaround.",
     },
   ],
 
   // Testimonials
   testimonials: [
     {
-      name: "Ahmet Y.",
-      text: "Evimizin komple tadilatını yaptırdık. İşçilik kalitesi ve zamanında teslimat konusunda çok memnun kaldık.",
+      name: "James R.",
+      text: "They did a complete remodel of our home. The quality of work and on-time delivery were outstanding.",
       rating: 5,
     },
     {
-      name: "Fatma K.",
-      text: "Banyomuzu baştan sona yenilediler. Çok temiz ve düzenli çalıştılar. Kesinlikle tavsiye ederim.",
+      name: "Sarah M.",
+      text: "They renovated our bathroom from scratch. Very clean and organized crew. Highly recommend!",
       rating: 5,
     },
     {
-      name: "Mehmet S.",
-      text: "Fiyat performans açısından en iyi seçim. Gizli maliyet olmadan, söyledikleri fiyata teslim ettiler.",
+      name: "Mike D.",
+      text: "Best value for money. No hidden costs — they delivered exactly at the quoted price.",
       rating: 5,
     },
   ],
 
   // Business Hours
   businessHours: [
-    { day: "Pazartesi - Cuma", hours: "08:00 - 19:00" },
-    { day: "Cumartesi", hours: "09:00 - 17:00" },
-    { day: "Pazar", hours: "Kapalı" },
+    { day: "Monday - Friday", hours: "7:00 AM - 6:00 PM" },
+    { day: "Saturday", hours: "8:00 AM - 4:00 PM" },
+    { day: "Sunday", hours: "Closed" },
   ],
 
   // Social Media
@@ -110,6 +111,6 @@ export const siteConfig = {
     instagram: "https://instagram.com",
   },
 
-  // Google Maps embed URL (replace with real one)
-  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192698.15068774522!2d28.847252924248882!3d41.00523706820655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1234567890",
+  // Google Maps embed URL (Houston, TX)
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d443088.1291735498!2d-95.68191469453am!3d29.81707309983498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890",
 };

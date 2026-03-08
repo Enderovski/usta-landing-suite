@@ -6,11 +6,11 @@ const iconMap = { ShieldCheck, Sparkles, Clock };
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 md:py-24 bg-surface-dark" id="neden-biz">
+    <section className="py-16 md:py-24 bg-surface-dark" id="why-us">
       <div className="container">
         <div className="text-center mb-12">
-          <span className="text-brand font-bold text-sm uppercase tracking-widest">Neden Biz?</span>
-          <h2 className="text-3xl md:text-4xl font-black text-surface-dark-foreground mt-2">Usta Mantığı</h2>
+          <span className="text-brand font-bold text-sm uppercase tracking-widest">Why Us?</span>
+          <h2 className="text-3xl md:text-4xl font-black text-surface-dark-foreground mt-2">The Pro Difference</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

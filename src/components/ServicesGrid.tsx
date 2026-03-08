@@ -6,11 +6,11 @@ const iconMap = { Wrench, Paintbrush, Droplets, Zap, LayoutGrid, Home };
 
 const ServicesGrid = () => {
   return (
-    <section className="py-16 md:py-24 bg-background" id="hizmetler">
+    <section className="py-16 md:py-24 bg-background" id="services">
       <div className="container">
         <div className="text-center mb-12">
-          <span className="text-brand font-bold text-sm uppercase tracking-widest">Hizmetlerimiz</span>
-          <h2 className="text-3xl md:text-4xl font-black text-foreground mt-2">Neler Yapıyoruz?</h2>
+          <span className="text-brand font-bold text-sm uppercase tracking-widest">Our Services</span>
+          <h2 className="text-3xl md:text-4xl font-black text-foreground mt-2">What We Do</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

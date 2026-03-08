@@ -17,14 +17,14 @@ const HeroSection = () => {
         >
           <div className="inline-block bg-brand px-4 py-1.5 rounded-sm mb-6">
             <span className="text-brand-foreground font-bold text-sm tracking-wider uppercase">
-              {siteConfig.location} Bölgesi
+              Serving {siteConfig.location}
             </span>
           </div>
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-surface-dark-foreground leading-tight mb-6">
             {siteConfig.heroHeadline.split(" ").map((word, i) => (
               <span key={i}>
-                {word === "Profesyonel" || word === "Hizmetleri" ? (
+                {siteConfig.heroHighlightWords?.includes(word) ? (
                   <span className="text-brand">{word} </span>
                 ) : (
                   <>{word} </>
@@ -43,7 +43,7 @@ const HeroSection = () => {
               className="flex items-center justify-center gap-3 bg-brand hover:bg-brand-glow transition-colors text-brand-foreground font-bold px-8 py-4 rounded-lg text-lg shadow-lg shadow-brand/25"
             >
               <Phone size={22} />
-              Hemen Ara
+              Call Now
             </a>
             <a
               href={`https://wa.me/${siteConfig.whatsappNumber}`}
@@ -52,7 +52,7 @@ const HeroSection = () => {
               className="flex items-center justify-center gap-3 bg-whatsapp hover:opacity-90 transition-opacity text-whatsapp-foreground font-bold px-8 py-4 rounded-lg text-lg"
             >
               <MessageCircle size={22} />
-              WhatsApp'tan Yaz
+              Message on WhatsApp
             </a>
           </div>
         </motion.div>

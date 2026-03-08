@@ -3,11 +3,11 @@ import { Phone, Mail, MapPin, Clock, Facebook, Instagram, MessageCircle } from "
 
 const Footer = () => {
   return (
-    <footer className="bg-surface-dark pt-16 pb-8" id="iletisim">
+    <footer className="bg-surface-dark pt-16 pb-8" id="contact">
       <div className="container">
         <div className="text-center mb-12">
-          <span className="text-brand font-bold text-sm uppercase tracking-widest">İletişim</span>
-          <h2 className="text-3xl md:text-4xl font-black text-surface-dark-foreground mt-2">Bize Ulaşın</h2>
+          <span className="text-brand font-bold text-sm uppercase tracking-widest">Contact</span>
+          <h2 className="text-3xl md:text-4xl font-black text-surface-dark-foreground mt-2">Get In Touch</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -21,7 +21,7 @@ const Footer = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Konum"
+              title="Our Location"
             />
           </div>
 
@@ -32,7 +32,7 @@ const Footer = () => {
                 <Phone size={22} className="text-brand group-hover:text-brand-foreground transition-colors" />
               </div>
               <div>
-                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">Telefon</p>
+                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">Phone</p>
                 <p className="text-surface-dark-foreground font-bold">{siteConfig.phone}</p>
               </div>
             </a>
@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">WhatsApp</p>
-                <p className="text-surface-dark-foreground font-bold">Mesaj Gönder</p>
+                <p className="text-surface-dark-foreground font-bold">Send a Message</p>
               </div>
             </a>
 
@@ -52,7 +52,7 @@ const Footer = () => {
                 <Mail size={22} className="text-brand group-hover:text-brand-foreground transition-colors" />
               </div>
               <div>
-                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">E-posta</p>
+                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">Email</p>
                 <p className="text-surface-dark-foreground font-bold">{siteConfig.email}</p>
               </div>
             </a>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <MapPin size={22} className="text-brand" />
               </div>
               <div>
-                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">Adres</p>
+                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium">Address</p>
                 <p className="text-surface-dark-foreground font-bold">{siteConfig.address}</p>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <Clock size={22} className="text-brand" />
               </div>
               <div>
-                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium mb-2">Çalışma Saatleri</p>
+                <p className="text-surface-dark-foreground/50 text-xs uppercase tracking-wider font-medium mb-2">Business Hours</p>
                 {siteConfig.businessHours.map((bh, i) => (
                   <div key={i} className="flex justify-between gap-8 text-sm">
                     <span className="text-surface-dark-foreground/70">{bh.day}</span>
@@ -88,7 +88,7 @@ const Footer = () => {
         {/* Social & Copyright */}
         <div className="border-t border-surface-dark-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-surface-dark-foreground/40 text-sm">
-            © {new Date().getFullYear()} {siteConfig.businessName}. Tüm hakları saklıdır.
+            © {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-surface-dark-foreground/10 flex items-center justify-center hover:bg-brand transition-colors group">
