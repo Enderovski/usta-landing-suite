@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import StickyHeader from "@/components/StickyHeader";
+import HeroSection from "@/components/HeroSection";
+import TrustBar from "@/components/TrustBar";
+import ServicesGrid from "@/components/ServicesGrid";
+import GallerySection from "@/components/GallerySection";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
+import { siteConfig } from "@/config/siteConfig";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <title>{`${siteConfig.businessName} | ${siteConfig.serviceName} - ${siteConfig.location}`}</title>
+      <meta name="description" content={siteConfig.heroSubheadline} />
+      
+      <div className="min-h-screen">
+        <StickyHeader />
+        <HeroSection />
+        <TrustBar />
+        <ServicesGrid />
+        <GallerySection />
+        <WhyChooseUs />
+        <Testimonials />
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
