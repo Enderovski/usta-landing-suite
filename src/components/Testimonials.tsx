@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const Testimonials = () => {
   return (
-    <section className="py-16 md:py-24 bg-background" id="yorumlar">
+    <section className="py-16 md:py-24 bg-background" id="reviews">
       <div className="container">
         <div className="text-center mb-12">
-          <span className="text-brand font-bold text-sm uppercase tracking-widest">Müşteri Yorumları</span>
-          <h2 className="text-3xl md:text-4xl font-black text-foreground mt-2">Ne Diyorlar?</h2>
+          <span className="text-brand font-bold text-sm uppercase tracking-widest">Customer Reviews</span>
+          <h2 className="text-3xl md:text-4xl font-black text-foreground mt-2">What They Say</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -35,7 +35,7 @@ const Testimonials = () => {
                   <p className="text-card-foreground font-bold text-sm">{t.name}</p>
                   <div className="flex items-center gap-1">
                     <BadgeCheck size={14} className="text-brand" />
-                    <span className="text-muted-foreground text-xs">Doğrulanmış Müşteri</span>
+                    <span className="text-muted-foreground text-xs">Verified Customer</span>
                   </div>
                 </div>
               </div>
